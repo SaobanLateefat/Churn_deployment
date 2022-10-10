@@ -1,8 +1,0 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct  9 15:32:24 2022
-
-@author: SAOBAN
-"""
-
-scikit-learn==0.24.1
