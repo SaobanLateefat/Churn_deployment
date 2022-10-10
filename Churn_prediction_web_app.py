@@ -15,7 +15,7 @@ import streamlit as st
 
 #pickle_in = open('C:/Users/SAOBAN/Documents/Code_Basics/Deployment/classifier.pkl', 'rb')
 #loaded_model = pickle.load(pickle_in)
-loaded_model = pickle.load('C:/Users/SAOBAN/Documents/Code_Basics/Deployment/classifier.pkl')
+loaded_model = joblib.load('classifier.pkl')
 
 
 
