@@ -6,8 +6,8 @@ Created on Fri Oct  7 13:36:01 2022
 """
 
 #import numpy as np
-import pickle 
-#import joblib
+#import pickle 
+import joblib
 import streamlit as st
 
 ## loading the saved model
@@ -15,7 +15,7 @@ import streamlit as st
 
 #pickle_in = open('C:/Users/SAOBAN/Documents/Code_Basics/Deployment/classifier.pkl', 'rb')
 #loaded_model = pickle.load(pickle_in)
-loaded_model = pickle.load(open('classifier.pkl', 'rb'))
+loaded_model = joblib.load(open('classifier.pkl', 'rb'))
 
 
 
