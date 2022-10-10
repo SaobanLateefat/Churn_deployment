@@ -6,8 +6,8 @@ Created on Fri Oct  7 13:36:01 2022
 """
 
 #import numpy as np
-#import pickle 
-import joblib
+import pickle 
+#import joblib
 import streamlit as st
 
 ## loading the saved model
